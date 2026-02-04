@@ -1,7 +1,7 @@
 
 import { Song, TopList, SystemHealth } from '../types';
 
-const API_BASE = 'https://api.ygking.top';
+const API_BASE = 'https://music-api.chenghua.site';
 
 // Helper to handle API response structure
 const fetchApi = async (endpoint: string, params?: Record<string, string>) => {
